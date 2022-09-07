@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+    font-family: 'Rubik', sans-serif;
+  }
+body {
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5em;
+    text-align: center;
+}
+.button_user {
+    transition-duration: 0.4s;
+    background-color: #4CAF50;
+    padding: 8px 16px;
+    color: rgb(255, 255, 255);
+}
+.button_admin {
+    transition-duration: 0.4s;
+    background-color: #2193cd;
+    padding: 8px 16px;
+    color: rgb(255, 255, 255);
+}
+.button_admin:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.button_user:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+input[type="submit"]{
+    background: rgb(12, 107, 189);
+    color: rgb(255, 255, 255);
+    width: 10em;  height: 2em;
+}
+  
+input[type="submit"]:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+  
+input[type="submit"]:active {
+    background: rgb(3, 78, 35);
+    color: rgb(255, 255, 255);
+    transition: all 0.125s;
+}  
+form {
+    height: 46px;
+    padding: 0 16px;
+    font-family: 'Rubik', sans-serif;
+    outline: 0;
+    transition: .2s;
+    margin-top: 20px;
+  }
+  
+form:focus {
+    border-color: #0f7ef1;
+  }
